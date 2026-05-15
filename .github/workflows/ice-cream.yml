@@ -1,0 +1,262 @@
+name: ice-cream
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+    ick:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: ick
+          run: |
+            npm install
+            timeout 315m node ice-cream.js
+  
+    gadzooks:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: gadzooks
+          run: |
+            npm install
+            timeout 344m node ice-cream.js
+  
+    who:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: who
+          run: |
+            npm install
+            timeout 300m node ice-cream.js
+  
+    by:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: by
+          run: |
+            npm install
+            timeout 312m node ice-cream.js
+  
+    scholarship_optimistically_perspire:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: scholarship_optimistically_perspire
+          run: |
+            npm install
+            timeout 342m node ice-cream.js
+  
+    voluntarily:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: voluntarily
+          run: |
+            npm install
+            timeout 346m node ice-cream.js
+  
+    pfft_clueless_sunny:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: pfft_clueless_sunny
+          run: |
+            npm install
+            timeout 344m node ice-cream.js
+  
+    huzzah_along_oddly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: huzzah_along_oddly
+          run: |
+            npm install
+            timeout 330m node ice-cream.js
+  
+    whereas_whoa:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: whereas_whoa
+          run: |
+            npm install
+            timeout 301m node ice-cream.js
+  
+    animated_unlike:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: animated_unlike
+          run: |
+            npm install
+            timeout 344m node ice-cream.js
+  
+    gosh_vaguely:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: gosh_vaguely
+          run: |
+            npm install
+            timeout 349m node ice-cream.js
+  
+    scarily_angelic_rag:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: scarily_angelic_rag
+          run: |
+            npm install
+            timeout 333m node ice-cream.js
+  
+    tarragon_except_instantly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: tarragon_except_instantly
+          run: |
+            npm install
+            timeout 306m node ice-cream.js
+  
+    next_bin_chip:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: next_bin_chip
+          run: |
+            npm install
+            timeout 334m node ice-cream.js
+  
+    since_scarily_rudely:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: since_scarily_rudely
+          run: |
+            npm install
+            timeout 341m node ice-cream.js
+  
+    segregate_including:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: segregate_including
+          run: |
+            npm install
+            timeout 320m node ice-cream.js
+  
